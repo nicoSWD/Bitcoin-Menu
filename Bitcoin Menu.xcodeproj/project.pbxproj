@@ -1,0 +1,479 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03C9FC8C184119D000D95B58 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03C9FC8B184119D000D95B58 /* Cocoa.framework */; };
+		03C9FC96184119D000D95B58 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 03C9FC94184119D000D95B58 /* InfoPlist.strings */; };
+		03C9FC98184119D000D95B58 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 03C9FC97184119D000D95B58 /* main.m */; };
+		03C9FC9C184119D000D95B58 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 03C9FC9A184119D000D95B58 /* Credits.rtf */; };
+		03C9FC9F184119D000D95B58 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 03C9FC9E184119D000D95B58 /* AppDelegate.m */; };
+		03C9FCA2184119D000D95B58 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03C9FCA0184119D000D95B58 /* MainMenu.xib */; };
+		03C9FCA4184119D000D95B58 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03C9FCA3184119D000D95B58 /* Images.xcassets */; };
+		03C9FCAB184119D000D95B58 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03C9FCAA184119D000D95B58 /* XCTest.framework */; };
+		03C9FCAC184119D000D95B58 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03C9FC8B184119D000D95B58 /* Cocoa.framework */; };
+		03C9FCB4184119D000D95B58 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 03C9FCB2184119D000D95B58 /* InfoPlist.strings */; };
+		03C9FCB6184119D000D95B58 /* Bitcoin_MenuTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 03C9FCB5184119D000D95B58 /* Bitcoin_MenuTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		03C9FCAD184119D000D95B58 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 03C9FC80184119D000D95B58 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 03C9FC87184119D000D95B58;
+			remoteInfo = "Bitcoin Menu";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03C9FC88184119D000D95B58 /* Bitcoin Menu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bitcoin Menu.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		03C9FC8B184119D000D95B58 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		03C9FC8E184119D000D95B58 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		03C9FC8F184119D000D95B58 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		03C9FC90184119D000D95B58 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		03C9FC93184119D000D95B58 /* Bitcoin Menu-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Bitcoin Menu-Info.plist"; sourceTree = "<group>"; };
+		03C9FC95184119D000D95B58 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		03C9FC97184119D000D95B58 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		03C9FC99184119D000D95B58 /* Bitcoin Menu-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bitcoin Menu-Prefix.pch"; sourceTree = "<group>"; };
+		03C9FC9B184119D000D95B58 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		03C9FC9D184119D000D95B58 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		03C9FC9E184119D000D95B58 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		03C9FCA1184119D000D95B58 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		03C9FCA3184119D000D95B58 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		03C9FCA9184119D000D95B58 /* Bitcoin MenuTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Bitcoin MenuTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		03C9FCAA184119D000D95B58 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		03C9FCB1184119D000D95B58 /* Bitcoin MenuTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Bitcoin MenuTests-Info.plist"; sourceTree = "<group>"; };
+		03C9FCB3184119D000D95B58 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		03C9FCB5184119D000D95B58 /* Bitcoin_MenuTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Bitcoin_MenuTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		03C9FC85184119D000D95B58 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03C9FC8C184119D000D95B58 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03C9FCA6184119D000D95B58 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03C9FCAC184119D000D95B58 /* Cocoa.framework in Frameworks */,
+				03C9FCAB184119D000D95B58 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03C9FC7F184119D000D95B58 = {
+			isa = PBXGroup;
+			children = (
+				03C9FC91184119D000D95B58 /* Bitcoin Menu */,
+				03C9FCAF184119D000D95B58 /* Bitcoin MenuTests */,
+				03C9FC8A184119D000D95B58 /* Frameworks */,
+				03C9FC89184119D000D95B58 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		03C9FC89184119D000D95B58 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				03C9FC88184119D000D95B58 /* Bitcoin Menu.app */,
+				03C9FCA9184119D000D95B58 /* Bitcoin MenuTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		03C9FC8A184119D000D95B58 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				03C9FC8B184119D000D95B58 /* Cocoa.framework */,
+				03C9FCAA184119D000D95B58 /* XCTest.framework */,
+				03C9FC8D184119D000D95B58 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		03C9FC8D184119D000D95B58 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				03C9FC8E184119D000D95B58 /* AppKit.framework */,
+				03C9FC8F184119D000D95B58 /* CoreData.framework */,
+				03C9FC90184119D000D95B58 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		03C9FC91184119D000D95B58 /* Bitcoin Menu */ = {
+			isa = PBXGroup;
+			children = (
+				03C9FC9D184119D000D95B58 /* AppDelegate.h */,
+				03C9FC9E184119D000D95B58 /* AppDelegate.m */,
+				03C9FCA0184119D000D95B58 /* MainMenu.xib */,
+				03C9FCA3184119D000D95B58 /* Images.xcassets */,
+				03C9FC92184119D000D95B58 /* Supporting Files */,
+			);
+			path = "Bitcoin Menu";
+			sourceTree = "<group>";
+		};
+		03C9FC92184119D000D95B58 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				03C9FC93184119D000D95B58 /* Bitcoin Menu-Info.plist */,
+				03C9FC94184119D000D95B58 /* InfoPlist.strings */,
+				03C9FC97184119D000D95B58 /* main.m */,
+				03C9FC99184119D000D95B58 /* Bitcoin Menu-Prefix.pch */,
+				03C9FC9A184119D000D95B58 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		03C9FCAF184119D000D95B58 /* Bitcoin MenuTests */ = {
+			isa = PBXGroup;
+			children = (
+				03C9FCB5184119D000D95B58 /* Bitcoin_MenuTests.m */,
+				03C9FCB0184119D000D95B58 /* Supporting Files */,
+			);
+			path = "Bitcoin MenuTests";
+			sourceTree = "<group>";
+		};
+		03C9FCB0184119D000D95B58 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				03C9FCB1184119D000D95B58 /* Bitcoin MenuTests-Info.plist */,
+				03C9FCB2184119D000D95B58 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		03C9FC87184119D000D95B58 /* Bitcoin Menu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03C9FCB9184119D000D95B58 /* Build configuration list for PBXNativeTarget "Bitcoin Menu" */;
+			buildPhases = (
+				03C9FC84184119D000D95B58 /* Sources */,
+				03C9FC85184119D000D95B58 /* Frameworks */,
+				03C9FC86184119D000D95B58 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Bitcoin Menu";
+			productName = "Bitcoin Menu";
+			productReference = 03C9FC88184119D000D95B58 /* Bitcoin Menu.app */;
+			productType = "com.apple.product-type.application";
+		};
+		03C9FCA8184119D000D95B58 /* Bitcoin MenuTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03C9FCBC184119D000D95B58 /* Build configuration list for PBXNativeTarget "Bitcoin MenuTests" */;
+			buildPhases = (
+				03C9FCA5184119D000D95B58 /* Sources */,
+				03C9FCA6184119D000D95B58 /* Frameworks */,
+				03C9FCA7184119D000D95B58 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				03C9FCAE184119D000D95B58 /* PBXTargetDependency */,
+			);
+			name = "Bitcoin MenuTests";
+			productName = "Bitcoin MenuTests";
+			productReference = 03C9FCA9184119D000D95B58 /* Bitcoin MenuTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		03C9FC80184119D000D95B58 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Nicolas Oelgart";
+				TargetAttributes = {
+					03C9FCA8184119D000D95B58 = {
+						TestTargetID = 03C9FC87184119D000D95B58;
+					};
+				};
+			};
+			buildConfigurationList = 03C9FC83184119D000D95B58 /* Build configuration list for PBXProject "Bitcoin Menu" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 03C9FC7F184119D000D95B58;
+			productRefGroup = 03C9FC89184119D000D95B58 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				03C9FC87184119D000D95B58 /* Bitcoin Menu */,
+				03C9FCA8184119D000D95B58 /* Bitcoin MenuTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		03C9FC86184119D000D95B58 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03C9FC96184119D000D95B58 /* InfoPlist.strings in Resources */,
+				03C9FCA4184119D000D95B58 /* Images.xcassets in Resources */,
+				03C9FC9C184119D000D95B58 /* Credits.rtf in Resources */,
+				03C9FCA2184119D000D95B58 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03C9FCA7184119D000D95B58 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03C9FCB4184119D000D95B58 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		03C9FC84184119D000D95B58 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03C9FC9F184119D000D95B58 /* AppDelegate.m in Sources */,
+				03C9FC98184119D000D95B58 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03C9FCA5184119D000D95B58 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03C9FCB6184119D000D95B58 /* Bitcoin_MenuTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		03C9FCAE184119D000D95B58 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 03C9FC87184119D000D95B58 /* Bitcoin Menu */;
+			targetProxy = 03C9FCAD184119D000D95B58 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		03C9FC94184119D000D95B58 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03C9FC95184119D000D95B58 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		03C9FC9A184119D000D95B58 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03C9FC9B184119D000D95B58 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		03C9FCA0184119D000D95B58 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03C9FCA1184119D000D95B58 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		03C9FCB2184119D000D95B58 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03C9FCB3184119D000D95B58 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		03C9FCB7184119D000D95B58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		03C9FCB8184119D000D95B58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		03C9FCBA184119D000D95B58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Bitcoin Menu/Bitcoin Menu-Prefix.pch";
+				INFOPLIST_FILE = "Bitcoin Menu/Bitcoin Menu-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		03C9FCBB184119D000D95B58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Bitcoin Menu/Bitcoin Menu-Prefix.pch";
+				INFOPLIST_FILE = "Bitcoin Menu/Bitcoin Menu-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		03C9FCBD184119D000D95B58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Bitcoin Menu.app/Contents/MacOS/Bitcoin Menu";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Bitcoin Menu/Bitcoin Menu-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Bitcoin MenuTests/Bitcoin MenuTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		03C9FCBE184119D000D95B58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Bitcoin Menu.app/Contents/MacOS/Bitcoin Menu";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Bitcoin Menu/Bitcoin Menu-Prefix.pch";
+				INFOPLIST_FILE = "Bitcoin MenuTests/Bitcoin MenuTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		03C9FC83184119D000D95B58 /* Build configuration list for PBXProject "Bitcoin Menu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03C9FCB7184119D000D95B58 /* Debug */,
+				03C9FCB8184119D000D95B58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03C9FCB9184119D000D95B58 /* Build configuration list for PBXNativeTarget "Bitcoin Menu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03C9FCBA184119D000D95B58 /* Debug */,
+				03C9FCBB184119D000D95B58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		03C9FCBC184119D000D95B58 /* Build configuration list for PBXNativeTarget "Bitcoin MenuTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03C9FCBD184119D000D95B58 /* Debug */,
+				03C9FCBE184119D000D95B58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 03C9FC80184119D000D95B58 /* Project object */;
+}
