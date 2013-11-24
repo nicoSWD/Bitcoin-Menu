@@ -7,4 +7,6 @@ Bitcoin ticker for the OS X status bar.
 
 Very simple app that puts a Bitcoin ticker into your OS X status bar. Clicking on another currency in the drop down menu will make it the default.
 
+Updates every 20 seconds and fetches the data from blockchain.info's API.
+
 Downloads can be found as always in the [releases](https://github.com/nicoSWD/Bitcoin-Menu/releases) tab.
