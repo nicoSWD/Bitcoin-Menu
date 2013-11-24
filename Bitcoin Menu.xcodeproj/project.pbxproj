@@ -18,6 +18,21 @@
 		03C9FCAC184119D000D95B58 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03C9FC8B184119D000D95B58 /* Cocoa.framework */; };
 		03C9FCB4184119D000D95B58 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 03C9FCB2184119D000D95B58 /* InfoPlist.strings */; };
 		03C9FCB6184119D000D95B58 /* Bitcoin_MenuTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 03C9FCB5184119D000D95B58 /* Bitcoin_MenuTests.m */; };
+		03C9FCD318411DE200D95B58 /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 03C9FCC118411DE200D95B58 /* AFHTTPRequestOperation.m */; };
+		03C9FCD418411DE200D95B58 /* AFHTTPRequestOperationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 03C9FCC318411DE200D95B58 /* AFHTTPRequestOperationManager.m */; };
+		03C9FCD518411DE200D95B58 /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 03C9FCC518411DE200D95B58 /* AFHTTPSessionManager.m */; };
+		03C9FCD618411DE200D95B58 /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 03C9FCC818411DE200D95B58 /* AFNetworkReachabilityManager.m */; };
+		03C9FCD718411DE200D95B58 /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = 03C9FCCA18411DE200D95B58 /* AFSecurityPolicy.m */; };
+		03C9FCD818411DE200D95B58 /* AFURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 03C9FCCC18411DE200D95B58 /* AFURLConnectionOperation.m */; };
+		03C9FCD918411DE200D95B58 /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 03C9FCCE18411DE200D95B58 /* AFURLRequestSerialization.m */; };
+		03C9FCDA18411DE200D95B58 /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 03C9FCD018411DE200D95B58 /* AFURLResponseSerialization.m */; };
+		03C9FCDB18411DE200D95B58 /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 03C9FCD218411DE200D95B58 /* AFURLSessionManager.m */; };
+		03C9FCDE1841203F00D95B58 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03C9FCDD1841203F00D95B58 /* SystemConfiguration.framework */; };
+		03C9FCE01841206B00D95B58 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03C9FCDF1841206B00D95B58 /* Security.framework */; };
+		03C9FCE41841790900D95B58 /* bitcoin.png in Resources */ = {isa = PBXBuildFile; fileRef = 03C9FCE21841790900D95B58 /* bitcoin.png */; };
+		03C9FCE51841790900D95B58 /* bitcoin@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 03C9FCE31841790900D95B58 /* bitcoin@2x.png */; };
+		03C9FCE818417B2500D95B58 /* bitcoin-alt.png in Resources */ = {isa = PBXBuildFile; fileRef = 03C9FCE618417B2500D95B58 /* bitcoin-alt.png */; };
+		03C9FCE918417B2500D95B58 /* bitcoin-alt@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 03C9FCE718417B2500D95B58 /* bitcoin-alt@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +65,31 @@
 		03C9FCB1184119D000D95B58 /* Bitcoin MenuTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Bitcoin MenuTests-Info.plist"; sourceTree = "<group>"; };
 		03C9FCB3184119D000D95B58 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		03C9FCB5184119D000D95B58 /* Bitcoin_MenuTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Bitcoin_MenuTests.m; sourceTree = "<group>"; };
+		03C9FCC018411DE200D95B58 /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperation.h; sourceTree = "<group>"; };
+		03C9FCC118411DE200D95B58 /* AFHTTPRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPRequestOperation.m; sourceTree = "<group>"; };
+		03C9FCC218411DE200D95B58 /* AFHTTPRequestOperationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperationManager.h; sourceTree = "<group>"; };
+		03C9FCC318411DE200D95B58 /* AFHTTPRequestOperationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPRequestOperationManager.m; sourceTree = "<group>"; };
+		03C9FCC418411DE200D95B58 /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPSessionManager.h; sourceTree = "<group>"; };
+		03C9FCC518411DE200D95B58 /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPSessionManager.m; sourceTree = "<group>"; };
+		03C9FCC618411DE200D95B58 /* AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworking.h; sourceTree = "<group>"; };
+		03C9FCC718411DE200D95B58 /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
+		03C9FCC818411DE200D95B58 /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
+		03C9FCC918411DE200D95B58 /* AFSecurityPolicy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFSecurityPolicy.h; sourceTree = "<group>"; };
+		03C9FCCA18411DE200D95B58 /* AFSecurityPolicy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFSecurityPolicy.m; sourceTree = "<group>"; };
+		03C9FCCB18411DE200D95B58 /* AFURLConnectionOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLConnectionOperation.h; sourceTree = "<group>"; };
+		03C9FCCC18411DE200D95B58 /* AFURLConnectionOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLConnectionOperation.m; sourceTree = "<group>"; };
+		03C9FCCD18411DE200D95B58 /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLRequestSerialization.h; sourceTree = "<group>"; };
+		03C9FCCE18411DE200D95B58 /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLRequestSerialization.m; sourceTree = "<group>"; };
+		03C9FCCF18411DE200D95B58 /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLResponseSerialization.h; sourceTree = "<group>"; };
+		03C9FCD018411DE200D95B58 /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLResponseSerialization.m; sourceTree = "<group>"; };
+		03C9FCD118411DE200D95B58 /* AFURLSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLSessionManager.h; sourceTree = "<group>"; };
+		03C9FCD218411DE200D95B58 /* AFURLSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLSessionManager.m; sourceTree = "<group>"; };
+		03C9FCDD1841203F00D95B58 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		03C9FCDF1841206B00D95B58 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		03C9FCE21841790900D95B58 /* bitcoin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bitcoin.png; path = Icons/bitcoin.png; sourceTree = "<group>"; };
+		03C9FCE31841790900D95B58 /* bitcoin@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "bitcoin@2x.png"; path = "Icons/bitcoin@2x.png"; sourceTree = "<group>"; };
+		03C9FCE618417B2500D95B58 /* bitcoin-alt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "bitcoin-alt.png"; path = "Icons/bitcoin-alt.png"; sourceTree = "<group>"; };
+		03C9FCE718417B2500D95B58 /* bitcoin-alt@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "bitcoin-alt@2x.png"; path = "Icons/bitcoin-alt@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +97,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				03C9FCE01841206B00D95B58 /* Security.framework in Frameworks */,
+				03C9FCDE1841203F00D95B58 /* SystemConfiguration.framework in Frameworks */,
 				03C9FC8C184119D000D95B58 /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -95,6 +137,8 @@
 		03C9FC8A184119D000D95B58 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				03C9FCDF1841206B00D95B58 /* Security.framework */,
+				03C9FCDD1841203F00D95B58 /* SystemConfiguration.framework */,
 				03C9FC8B184119D000D95B58 /* Cocoa.framework */,
 				03C9FCAA184119D000D95B58 /* XCTest.framework */,
 				03C9FC8D184119D000D95B58 /* Other Frameworks */,
@@ -119,6 +163,7 @@
 				03C9FC9E184119D000D95B58 /* AppDelegate.m */,
 				03C9FCA0184119D000D95B58 /* MainMenu.xib */,
 				03C9FCA3184119D000D95B58 /* Images.xcassets */,
+				03C9FCBF18411DE200D95B58 /* AFNetworking */,
 				03C9FC92184119D000D95B58 /* Supporting Files */,
 			);
 			path = "Bitcoin Menu";
@@ -127,6 +172,7 @@
 		03C9FC92184119D000D95B58 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				03C9FCE1184178FB00D95B58 /* Icons */,
 				03C9FC93184119D000D95B58 /* Bitcoin Menu-Info.plist */,
 				03C9FC94184119D000D95B58 /* InfoPlist.strings */,
 				03C9FC97184119D000D95B58 /* main.m */,
@@ -152,6 +198,43 @@
 				03C9FCB2184119D000D95B58 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		03C9FCBF18411DE200D95B58 /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				03C9FCC018411DE200D95B58 /* AFHTTPRequestOperation.h */,
+				03C9FCC118411DE200D95B58 /* AFHTTPRequestOperation.m */,
+				03C9FCC218411DE200D95B58 /* AFHTTPRequestOperationManager.h */,
+				03C9FCC318411DE200D95B58 /* AFHTTPRequestOperationManager.m */,
+				03C9FCC418411DE200D95B58 /* AFHTTPSessionManager.h */,
+				03C9FCC518411DE200D95B58 /* AFHTTPSessionManager.m */,
+				03C9FCC618411DE200D95B58 /* AFNetworking.h */,
+				03C9FCC718411DE200D95B58 /* AFNetworkReachabilityManager.h */,
+				03C9FCC818411DE200D95B58 /* AFNetworkReachabilityManager.m */,
+				03C9FCC918411DE200D95B58 /* AFSecurityPolicy.h */,
+				03C9FCCA18411DE200D95B58 /* AFSecurityPolicy.m */,
+				03C9FCCB18411DE200D95B58 /* AFURLConnectionOperation.h */,
+				03C9FCCC18411DE200D95B58 /* AFURLConnectionOperation.m */,
+				03C9FCCD18411DE200D95B58 /* AFURLRequestSerialization.h */,
+				03C9FCCE18411DE200D95B58 /* AFURLRequestSerialization.m */,
+				03C9FCCF18411DE200D95B58 /* AFURLResponseSerialization.h */,
+				03C9FCD018411DE200D95B58 /* AFURLResponseSerialization.m */,
+				03C9FCD118411DE200D95B58 /* AFURLSessionManager.h */,
+				03C9FCD218411DE200D95B58 /* AFURLSessionManager.m */,
+			);
+			path = AFNetworking;
+			sourceTree = "<group>";
+		};
+		03C9FCE1184178FB00D95B58 /* Icons */ = {
+			isa = PBXGroup;
+			children = (
+				03C9FCE21841790900D95B58 /* bitcoin.png */,
+				03C9FCE618417B2500D95B58 /* bitcoin-alt.png */,
+				03C9FCE718417B2500D95B58 /* bitcoin-alt@2x.png */,
+				03C9FCE31841790900D95B58 /* bitcoin@2x.png */,
+			);
+			name = Icons;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,8 +314,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				03C9FC96184119D000D95B58 /* InfoPlist.strings in Resources */,
+				03C9FCE41841790900D95B58 /* bitcoin.png in Resources */,
 				03C9FCA4184119D000D95B58 /* Images.xcassets in Resources */,
+				03C9FCE51841790900D95B58 /* bitcoin@2x.png in Resources */,
 				03C9FC9C184119D000D95B58 /* Credits.rtf in Resources */,
+				03C9FCE918417B2500D95B58 /* bitcoin-alt@2x.png in Resources */,
+				03C9FCE818417B2500D95B58 /* bitcoin-alt.png in Resources */,
 				03C9FCA2184119D000D95B58 /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -252,7 +339,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				03C9FCD918411DE200D95B58 /* AFURLRequestSerialization.m in Sources */,
+				03C9FCD818411DE200D95B58 /* AFURLConnectionOperation.m in Sources */,
+				03C9FCD718411DE200D95B58 /* AFSecurityPolicy.m in Sources */,
+				03C9FCD318411DE200D95B58 /* AFHTTPRequestOperation.m in Sources */,
+				03C9FCDB18411DE200D95B58 /* AFURLSessionManager.m in Sources */,
+				03C9FCDA18411DE200D95B58 /* AFURLResponseSerialization.m in Sources */,
 				03C9FC9F184119D000D95B58 /* AppDelegate.m in Sources */,
+				03C9FCD518411DE200D95B58 /* AFHTTPSessionManager.m in Sources */,
+				03C9FCD418411DE200D95B58 /* AFHTTPRequestOperationManager.m in Sources */,
+				03C9FCD618411DE200D95B58 /* AFNetworkReachabilityManager.m in Sources */,
 				03C9FC98184119D000D95B58 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -387,6 +483,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Bitcoin Menu/Bitcoin Menu-Prefix.pch";
 				INFOPLIST_FILE = "Bitcoin Menu/Bitcoin Menu-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -400,6 +497,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Bitcoin Menu/Bitcoin Menu-Prefix.pch";
 				INFOPLIST_FILE = "Bitcoin Menu/Bitcoin Menu-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
