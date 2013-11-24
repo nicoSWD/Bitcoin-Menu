@@ -284,11 +284,6 @@
 			attributes = {
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = "Nicolas Oelgart";
-				TargetAttributes = {
-					03C9FCA8184119D000D95B58 = {
-						TestTargetID = 03C9FC87184119D000D95B58;
-					};
-				};
 			};
 			buildConfigurationList = 03C9FC83184119D000D95B58 /* Build configuration list for PBXProject "Bitcoin Menu" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -507,7 +502,6 @@
 		03C9FCBD184119D000D95B58 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Bitcoin Menu.app/Contents/MacOS/Bitcoin Menu";
 				COMBINE_HIDPI_IMAGES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
@@ -521,7 +515,6 @@
 				);
 				INFOPLIST_FILE = "Bitcoin MenuTests/Bitcoin MenuTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
 			name = Debug;
@@ -529,7 +522,6 @@
 		03C9FCBE184119D000D95B58 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Bitcoin Menu.app/Contents/MacOS/Bitcoin Menu";
 				COMBINE_HIDPI_IMAGES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
@@ -539,7 +531,6 @@
 				GCC_PREFIX_HEADER = "Bitcoin Menu/Bitcoin Menu-Prefix.pch";
 				INFOPLIST_FILE = "Bitcoin MenuTests/Bitcoin MenuTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
 			name = Release;

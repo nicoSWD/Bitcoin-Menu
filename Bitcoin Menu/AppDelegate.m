@@ -22,7 +22,6 @@ static NSString *currentCurrency = @"USD";
     [statusItem setImage:[NSImage imageNamed:@"bitcoin"]];
     [statusItem setAlternateImage:[NSImage imageNamed:@"bitcoin-alt"]];
     [statusItem setHighlightMode:YES];
-    [statusMenu setDelegate:self];
     
     [self reloadData];
     [NSTimer scheduledTimerWithTimeInterval:20.0 target:self selector:@selector(reloadData) userInfo:nil repeats:YES];

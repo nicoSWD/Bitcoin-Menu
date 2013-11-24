@@ -8,12 +8,14 @@
 
 #import <Cocoa/Cocoa.h>
 
-@interface AppDelegate : NSObject <NSApplicationDelegate, NSMenuDelegate>
+@interface AppDelegate : NSObject <NSApplicationDelegate>
 {
     IBOutlet NSMenu *statusMenu;
     NSStatusItem *statusItem;
 }
 
+- (void)reloadData;
+- (void)setDefaultCurrency:(NSMenuItem*)clickedItem;
 
 @property (assign) IBOutlet NSWindow *window;
 @property (nonatomic, retain) NSDictionary *prices;
