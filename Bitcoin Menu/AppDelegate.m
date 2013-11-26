@@ -44,7 +44,7 @@ static NSString *currentCurrency = @"USD";
         self.prices = (NSDictionary*)responseObject;
         
         [statusMenu removeAllItems];
-        statusItem.title = [NSString stringWithFormat:@"%01.2f %@",
+        statusItem.title = [NSString stringWithFormat:@"%.2f %@",
                             [[[responseObject objectForKey:currentCurrency] objectForKey:@"15m"] floatValue],
                             [[responseObject objectForKey:currentCurrency] objectForKey:@"symbol"]];
         
@@ -52,7 +52,7 @@ static NSString *currentCurrency = @"USD";
         
         for (NSString *currency in responseObject)
         {
-            title = [NSString stringWithFormat:@"%@: %01.2f %@",
+            title = [NSString stringWithFormat:@"%@: %.2f %@",
                      currency,
                      [[[responseObject objectForKey:currency] objectForKey:@"15m"] floatValue],
                      [[responseObject objectForKey:currency] objectForKey:@"symbol"]];
